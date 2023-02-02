@@ -1,0 +1,218 @@
+@font-face{
+        font-family: Down;
+        src: url(/fonts/font.ttf);
+
+}
+
+p{
+
+    font-family: Down;
+
+}
+body{
+    margin: 0;
+}
+.uni-padding{
+ padding: 0 7%;
+
+}
+#topbar{
+    position: relative;  
+    background-color: grey;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    overflow: auto;
+    z-index: 2;
+}
+#social-icon{
+float: right;
+
+}
+#tolfree{
+    color: white;
+    float: left;
+    margin: 0;
+    margin-top: 5px;
+}
+.fa-brands{
+
+    background-color:white ;
+    padding: 7px;
+    border-radius: 35px;
+}
+.fa-facebook-f{
+
+    padding: 7px 10px;
+}
+.fa-facebook{
+  padding: 12px;
+ 
+}
+#logo{
+width: 170px;
+
+
+}
+#poster{
+background-image: url(../images/poster.jpg);
+height: 400px;
+display: flex;
+color: rgb(255, 255, 255);
+text-decoration: double;
+font-size: larger;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
+#navbar{
+ background-color: rgb(52, 189, 171);
+ 
+
+}
+#navbar ul li{
+
+   
+    display: inline-block;
+    padding: 20px 0;
+    padding-right: 45px;
+    color: white;
+    
+   
+}
+#navbar ul li a{
+
+   
+    text-decoration: none;
+    color: white;
+    
+   
+}
+#img{
+
+    position: relative;
+    bottom: 0px;
+    z-index: 1;
+    bottom: 25px;
+    
+}
+#nav{
+    position: relative;
+    bottom: 65px;
+    z-index: 3;
+
+
+}
+#red{
+
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+#con{
+text-transform: auto;
+display: flex;
+align-items: column;
+
+}
+
+
+.pc1{
+ height: 200px;
+ width: 33.33%; 
+ text-align: center;
+
+}
+.section1{
+width: 33.33%;
+text-align: center;
+
+}
+.section1 p{
+    width: 90%;
+    text-align: justify;
+}
+
+.section1 h2{
+
+
+    color: red;
+}
+#contact-con{
+     
+     overflow: auto;
+     background-color: red;
+   
+
+}
+
+#section2 {
+ color: white;
+    width: 65%;
+      float: left;
+}
+#section3{
+
+    text-align: center;
+    padding-top: 70px;
+    
+
+}
+#section3 a{
+color: red;
+background-color: white;
+padding: 15px 50px;
+border-radius: 8px;
+text-decoration: none;
+font-size: 16px;
+font-weight: bold;
+
+
+}
+
+
+
+#imp-link{
+
+   color: white;
+    background-color: grey;
+    overflow: auto;
+}
+.div3{
+    padding-top: 0px;
+width: 31.1%;
+display: inline-block;
+vertical-align: top;
+
+}
+.div3 h3{
+text-decoration: underline;
+
+
+}
+#copyright{
+    padding-left: 0px;
+    height: 60px;
+  background-color: navy;
+color: white;
+text-align: center;
+display: inline-block;
+width: 100%;
+box-sizing: border-box;
+vertical-align: middle;
+}
+#footer-menu{
+  padding-left: 60px;
+
+}
+#footer-menu ul {
+list-style-type: none;
+
+
+
+}
+#footer-menu ul li{
+
+    padding-bottom: 5px;
+}
